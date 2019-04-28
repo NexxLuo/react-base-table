@@ -102,6 +102,12 @@ export function cloneArray(array) {
 
 export function noop() {}
 
+export function toString(value) {
+  if (typeof value === 'string') return value;
+  if (value === null || value === undefined) return '';
+  return value.toString ? value.toString() : '';
+}
+
 // copied from dom-helpers
 let scrollbarSize;
 export function getScrollbarSize(recalculate) {

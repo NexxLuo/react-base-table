@@ -36,7 +36,7 @@ we are using a wrapper `const Table = props => <BaseTable width={720} height={40
 
 You can use the [`AutoResizer`](https://autodesk.github.io/react-base-table/api/autoresizer) to make the table fill the container, take the [playground](https://autodesk.github.io/react-base-table/playground) for example
 
-_You have to polyfil `Array.prototype.findIndex` to make it works on IE_
+_You have to polyfill `Array.prototype.findIndex` to make it works on IE_
 
 ## Advance
 
